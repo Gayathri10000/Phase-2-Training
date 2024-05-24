@@ -14,10 +14,6 @@ def topViewHelper(root, store, hd, level):
 
          
     '''
-
-
-
-
     
     if root == None:
         return 
