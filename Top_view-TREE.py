@@ -1,4 +1,24 @@
 def topViewHelper(root, store, hd, level):
+
+# hd is  horizontal distance 
+    '''          
+                hd
+                (0)
+                 0               level 0  
+       hd-1     / \    hd+1   
+        |      /   \    |
+      (-1)   /      \  (1)
+            3         5          level 1
+          /   \      /  \
+         10   8     9    6       level 2
+
+         
+    '''
+
+
+
+
+    
     if root == None:
         return 
  
